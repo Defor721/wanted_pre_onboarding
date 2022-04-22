@@ -1,0 +1,170 @@
+/*------------------------App--------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+}
+hr {
+  opacity: 50%;
+}
+
+/*------------------------Toggle--------------------------*/
+
+/*------------------------Tab--------------------------*/
+
+/*------------------------Input--------------------------*/
+
+label {
+  position: relative;
+  font-size: 12px;
+}
+
+.inputDiv {
+  position: relative;
+  left: 43%;
+  border: 20px solid white;
+}
+
+.emailBox {
+  width: 300px;
+  height: 35px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  font-weight: 600;
+}
+
+.invalid {
+  font-size: 11.2px;
+  color: red;
+  visibility: hidden;
+}
+
+.passwordBox {
+  width: 300px;
+  height: 35px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+#emailIcon {
+  position: absolute;
+  bottom: 0.1px;
+  right: 5px;
+  opacity: 40%;
+}
+#pwIcon {
+  position: absolute;
+  bottom: 0.1px;
+  right: 5px;
+  opacity: 40%;
+}
+
+#pwIcon:hover {
+  cursor: pointer;
+}
+
+/*------------------------DropDown--------------------------*/
+.dropDiv {
+  position: relative;
+  left: 48%;
+  height: 200px;
+}
+
+.dropInput {
+  text-align: end;
+  width: 250px;
+  height: 30px;
+  font-weight: bold;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 6px;
+  background-color: whitesmoke;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.dropInput:hover {
+  cursor: pointer;
+}
+
+/*------------------------Slider--------------------------*/
+.sliderDiv {
+  border: 30px solid white;
+}
+
+.valueBox {
+  position: relative;
+  left: 40%;
+  width: 400px;
+  height: 55px;
+  border: 1px solid gray;
+  background-color: whitesmoke;
+  opacity: 50%;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.numberBox {
+  position: absolute;
+  text-align: end;
+  top: 12px;
+  left: 260px;
+  width: 100px;
+  height: 30px;
+  font-size: 30px;
+  border: 0;
+  background-color: whitesmoke;
+}
+.em {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.sliderBox {
+  position: relative;
+  left: 40%;
+  width: 401px;
+}
+
+.sliderBar {
+  left: 40%;
+  width: 400px;
+  height: 30px;
+}
+
+.numTable {
+  position: relative;
+  left: 40%;
+  width: 450px;
+  border: 0;
+}
+
+table > td > button {
+  text-align: center;
+  width: 42px;
+  color: gray;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+table > td > button:hover {
+  background-color: lightseagreen;
+  color: white;
+}
